@@ -7,6 +7,7 @@ export default class Button extends React.Component {
     name: PropTypes.string,
     orange: PropTypes.bool,
     wide: PropTypes.bool,
+    height: PropTypes.bool,
     clickHandler: PropTypes.func,
   };
 
